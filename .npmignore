@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+
+# Build directories
+# dist
+build
+
+# Config files
+.rsbuild.config.js
+rsbuild.config.ts
+rsbuild.config.mjs
+tsconfig.json
+.eslintrc.js
+.eslintrc
+babel.config.js
+webpack.config.js
+jest.config.js
+*.config.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage
+*.test.js
+*.spec.js
+*.test.jsx
+*.spec.jsx
+__tests__
+__mocks__
+
+# Miscellaneous
+.DS_Store
+.env
+.env.*
+.vscode
+.idea
+
+# Source files (exclude if compiled output is included)
+src
+public

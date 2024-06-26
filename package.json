@@ -1,0 +1,43 @@
+{
+  "name": "gmd-mf-widget-loader",
+  "version": "1.10.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "author": "Godmode Dev",
+  "license": "MIT",
+  "scripts": {
+    "rs_build": "rsbuild build",
+    "lint": "eslint .",
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@module-federation/enhanced": "^0.1.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "peerDependencies": {
+    "@module-federation/enhanced": "^0.1.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@eslint/compat": "^1.0.3",
+    "@eslint/js": "^9.4.0",
+    "@rsbuild/core": "^0.7.7",
+    "@rsbuild/plugin-babel": "^0.7.9",
+    "@rsbuild/plugin-react": "^0.7.7",
+    "eslint": "9.x",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.4.0",
+    "prettier": "^3.1.1"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
